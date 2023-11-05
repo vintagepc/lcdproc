@@ -512,25 +512,25 @@ CFontzPacket_get_key (Driver *drvthis)
 	switch (key) {
 		case CFP_KEY_UL_PRESS:
 		case CFP_KEY_UP:
-			return "Up";
+			return "A";
 			break;
 		case CFP_KEY_LL_PRESS:
 		case CFP_KEY_DOWN:
-			return "Down";
+			return "B";
 			break;
 		case CFP_KEY_LEFT:
-			return "Left";
+			return "C";
 			break;
 		case CFP_KEY_RIGHT:
-			return "Right";
+			return "D";
 			break;
 		case CFP_KEY_UR_PRESS:
 		case CFP_KEY_ENTER:
-			return "Enter";
+			return "E";
 			break;
 		case CFP_KEY_LR_PRESS:
 		case CFP_KEY_ESCAPE:
-			return "Escape";
+			return "F";
 			break;
 		case CFP_KEY_UP_RELEASE:
 		case CFP_KEY_DOWN_RELEASE:
